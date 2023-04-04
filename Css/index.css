@@ -1,33 +1,47 @@
-/* Estilos para el encabezado */
+body {
+    margin: 0;
+    padding: 0;
+}
+
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f2f2f2;
-    padding: 10px;
-    width: 100%;
-    
-    
+    padding: 20px;
+    background: linear-gradient(#f00a5e,#b80090);
+    z-index: 100;
 }
+
 
 
 nav ul {
     display: flex;
-    gap: 20px;
     list-style: none;
     margin: 0;
+    padding: 0;
 }
 
-nav ul li a {
-    color: #050505;
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
     text-decoration: none;
+    color: #ffffff;
     font-weight: bold;
-    font-size: 16px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
 }
 
-nav ul li a:hover {
-    color: #ff9800;
+nav a:hover {
+    color: #4a0202;
 }
+
+
 
 nav ul li select {
     font-size: 16px;
@@ -38,6 +52,7 @@ main {
     max-width: 960px;
     margin: 0 auto;
     padding: 20px;
+    margin-top: 20%;
 }
 
 section h1 {
