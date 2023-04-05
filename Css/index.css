@@ -8,11 +8,12 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    height: 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background: linear-gradient(#f00a5e, #b80090);
+    background-color: #ccc;
     z-index: 100;
 }
 
@@ -31,7 +32,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
     font-weight: bold;
     text-transform: uppercase;
     transition: all 0.3s ease;
@@ -39,7 +40,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #4a0202;
+    color: #ffffff;
 }
 
 
